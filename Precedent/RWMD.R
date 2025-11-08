@@ -24,7 +24,7 @@ wv = glove_model$fit_transform(tcm, n_iter = 3)
 # get average of main and context vectors as proposed in GloVe paper
 wv = wv + t(glove_model$components)
 rwmd_model = RelaxedWordMoversDistance$new(dtm, wv)
-rwms = rwmd_model$sim2(dtm[1:12243, ]) # robbery = 5842,theft = 12243
+rwms = rwmd_model$sim2(dtm[1:12243, ]) # robbery = 5839,theft = 12243
 numberCase <- rwms[1,]
 
 tokens1 <- segment(caseset$说理, jieba)
@@ -42,13 +42,14 @@ rwmd_model1 = RelaxedWordMoversDistance$new(dtm1, wv1)
 rwms1 = rwmd_model1$sim2(dtm1[1:12243, ])
 numberReason <- rwms1[1,]
 
+library(car)
 # get-dimension
 vector_dim <- ncol(wv)
 cat("Word vector dimension:", vector_dim, "\n")
 
 # norm distribution
 norms <- sqrt(rowSums(wv^2))
-hist(norms, main = "Distribution of Robbery Word Vector Norms", xlab = "Norm", breaks = 50)
+hist(norms, main = "Distribution of Theft Facts Word Vector Norms", xlab = "Norm", breaks = 50)
 
 # get-dimension
 vector_dim1 <- ncol(wv1)
@@ -56,17 +57,16 @@ cat("Word vector dimension:", vector_dim1, "\n")
 
 # norm distribution
 norms1 <- sqrt(rowSums(wv1^2))
-hist(norms1, main = "Distribution of Robbery Word Vector Norms", xlab = "Norm", breaks = 50)
+hist(norms1, main = "Distribution of Theft Reasoning Word Vector Norms", xlab = "Norm", breaks = 50)
 
 # documetns lengths
 dtm <- as.matrix(dtm)
 doc_lengths <- rowSums(dtm)
-hist(log(doc_lengths), main = "Distribution of Burglary Document Lengths", xlab = "Number of Words", breaks = 100)
+hist(log(doc_lengths), main = "Distribution of Theft Document Facts Lengths", xlab = "Number of Words", breaks = 100)
 
 dtm1 <- as.matrix(dtm1)
-doc_lengths <- rowSums(dtm1)
-hist(log(doc_lengths), main = "Distribution of Burglary Document Lengths", xlab = "Number of Words", breaks = 100)
-
+doc_lengths1 <- rowSums(dtm1)
+hist(log(doc_lengths1), main = "Distribution of Theft Document Reasoning Lengths", xlab = "Number of Words", breaks = 100)
 
 #facts-reason###########################################
 #####################################################
@@ -82,7 +82,7 @@ for (i in 1:length(numberCase)) {
   ))
   
   if (i %% 100 == 0) {
-    cat("已完成", i, "次回归\n")
+    cat("complete", i, "times\n")
   }
 }
 
@@ -94,25 +94,7 @@ ggplot(results, aes(x = slope)) +
   labs(title = "Facts-Reasoning Coefficients Distribution (Burglary)",  
        x = "Coefficient",                  
        y = "Density") +                
-  theme_bw() 
-
-lm1 <- lm(numberReason[-1] ~ numberCase[-1])
-slope = coef(lm1)[2]
-se <- sqrt(diag(vcov(lm1)))[2]
-summary(lm1)
-plot(lm1)
-
-numberVerdict <- rep(NA, length(numberReason))
-for (i in 1:length(numberReason)){
-  numberVerdict[i] <- sqrt((caseset$刑期[i] - caseset$刑期[1])^2)
-}
-numberVerdict <- log1p(numberVerdict)
-
-lm2 <- lm(numberVerdict[-1] ~ numberReason[-1])
-summary(lm2)
-plot(lm2)
-
-
+  theme_bw()
 
 #reason-sentencing###########################################
 #####################################################
@@ -134,7 +116,7 @@ for (i in 1:length(numberCase)) {
   ))
   
   if (i %% 100 == 0) {
-    cat("已完成", i, "次回归\n")
+    cat("complete", i, "times\n")
   }
 }
 
