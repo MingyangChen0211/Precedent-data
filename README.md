@@ -23,9 +23,13 @@ Gaojie Song: 202530131014T@stu.cqu.edu.cn
 
 ### Funding: 
 
-Boyang Xu's National Social Science Fund of China” (24CFX098)
+Boyang Xu's National Social Science Fund of China (24CFX098)
 
 CUPL Data Law Lab
+
+### Other issues: 
+
+Zian Ren, Aokai Wang are two students from CUPL, and they provide us rich legal knowledge building this data set. 
 
 # Appendix B file: 
 
@@ -40,3 +44,4 @@ Zhipeng Wu: 202530131014T@stu.cqu.edu.cn
 Mingyang Chen: mc55649@um.edu.mo
 
 Boyang Xu: xuboyangcupl@126.com
+
