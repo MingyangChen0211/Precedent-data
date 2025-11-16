@@ -21,6 +21,11 @@ Mingyang Chen: mc55649@um.edu.mo
 
 Gaojie Song: 202530131014T@stu.cqu.edu.cn
 
+### Funding: 
+
+Boyang Xu's National Social Science Fund of China” (24CFX098)
+
+CUPL Data Law Lab
 
 # Appendix B file: 
 
