@@ -5,12 +5,33 @@ caseset.xlsx is the theft data
 final rob data.xlsx is the robbery data
 
 If you are going to use these data, please cite our work!
-Should you have any questions about the work and this project, please contact me at mc55649@um.edu.mo or contact Dr. Boyang Xu at xuboyangcupl@126.com
+Should you have any questions about the work and this project, please contact Mingyang Chen at mc55649@um.edu.mo or contact Dr. Boyang Xu at xuboyangcupl@126.com
 
-Techonical issues, please contact any of them: 
-2401421139@cupl.edu.cn /
-202530131014T@stu.cqu.edu.cn /
-22421167@zju.edu.cn /
+### Techonical issues, please contact any of them: 
 
-Empirical model, theory issues, please contact: 
-mc55649@um.edu.mo
+Zhipeng Wu: 2401421139@cupl.edu.cn
+
+Gaojie Song: 202530131014T@stu.cqu.edu.cn
+
+Zhanxue Xu: 22421167@zju.edu.cn
+
+### Empirical model, theory issues, please contact: 
+
+Mingyang Chen: mc55649@um.edu.mo
+
+Gaojie Song: 202530131014T@stu.cqu.edu.cn
+
+
+# Appendix B file: 
+
+the reviewers ask us to add more materials, so we upload related adding materials in appendix B file. 
+
+### Techonical issues related to appendix B , please contact: 
+
+Zhipeng Wu: 202530131014T@stu.cqu.edu.cn
+
+### Empirical model issues related to appendix B, please contact: 
+
+Mingyang Chen: mc55649@um.edu.mo
+
+Boyang Xu: xuboyangcupl@126.com
