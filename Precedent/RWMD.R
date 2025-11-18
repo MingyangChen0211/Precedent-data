@@ -107,7 +107,7 @@ for (i in 1:length(numberCase)) {
     numberVerdict[s] <- sqrt((caseset$刑期[s] - caseset$刑期[i])^2)
   }
   numberVerdict <- log1p(numberVerdict)
-  model <- lm(numberVerdict[-i] ~ rwms[i,][-i])
+  model <- lm(numberVerdict[-i] ~ rwms1[i,][-i])
   
   results1 <- rbind(results1, data.frame(
     iteration = i,
