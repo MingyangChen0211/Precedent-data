@@ -44,6 +44,3 @@ Zhipeng Wu: 202530131014T@stu.cqu.edu.cn
 ### Empirical model issues related to appendix B, please contact: 
 
 Mingyang Chen: mc55649@um.edu.mo
-
-Boyang Xu: xuboyangcupl@126.com
-
