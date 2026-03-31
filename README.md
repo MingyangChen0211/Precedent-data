@@ -4,7 +4,8 @@ caseset.xlsx is the theft data
 
 final rob data.xlsx is the robbery data
 
-If you are going to use these data, please cite our work!
+If you are going to use these data, please cite our work! 
+
 Should you have any questions about the work and this project, please contact Mingyang Chen at mc55649@um.edu.mo or contact Dr. Boyang Xu at xuboyangcupl@126.com
 
 ### Techonical issues (collecting CJO data, cutting documents and etc. ), please contact any of them: 
