@@ -5,8 +5,8 @@ library(flextable)
 library(corrplot)
 library(readxl)
 library(jiebaR)
-caseset <- read_excel("final rob data.xlsx")
-# caseset <- read_excel("caseset.xlsx")
+caseset <- read_excel("final_rob_data.xlsx")
+# caseset <- read_excel("final_thef_data.xlsx")
 # caseset.xlsx is burglary data. final rob data.xlsx is robbery data
 
 #data process############################################
