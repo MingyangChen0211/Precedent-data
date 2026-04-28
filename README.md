@@ -40,7 +40,7 @@ Zian Ren, Aokai Wang are two students from CUPL, and they provide us rich legal 
 
 ## Appendix B file: 
 
-the reviewers ask us to add more materials, so we upload related adding materials in appendix B file. 
+the reviewers ask us to add more materials to validate our findings or provide some insights for future studies, so we upload related adding materials in appendix B file. 
 
 ### Techonical issues related to appendix B , please contact: 
 
