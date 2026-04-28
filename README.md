@@ -42,7 +42,7 @@ Zian Ren, Aokai Wang are two students from CUPL, and they provide us rich legal 
 
 ## Appendix B file: 
 
-the reviewers ask us to add more materials to validate our findings or provide some insights for future studies, so we upload related adding materials in appendix B file. 
+The reviewers ask us to add more materials to validate our findings or provide some insights for future studies, so we upload related adding materials in appendix B file. 
 
 ### Techonical issues related to appendix B , please contact: 
 
@@ -51,3 +51,7 @@ Zhipeng Wu: 202530131014T@stu.cqu.edu.cn
 ### Empirical model issues related to appendix B, please contact: 
 
 Mingyang Chen: mc55649@um.edu.mo
+
+# NOTE
+
+For technical issues, we will later provide a R package for users to replicate not only this paper, but all other sentencing research using CJO data. Onece the package is available, we will give the link here. 
