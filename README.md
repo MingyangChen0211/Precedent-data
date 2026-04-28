@@ -1,6 +1,6 @@
 # README
 
-This is a README file for the codes and data for replicating the paper "Judges are trained as good explainers but maligned sentencers: a text similarity approach". DOI link: https://doi.org/10.1093/lpr/mgag007. 
+This is a README of the codes and data for replicating the paper "Judges are trained as good explainers but maligned sentencers: a text similarity approach". DOI link: https://doi.org/10.1093/lpr/mgag007. 
 
 ## Manuscript(Precedent) file
 
