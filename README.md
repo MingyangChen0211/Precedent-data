@@ -4,9 +4,9 @@ This is a README of the codes and data for replicating the paper "Judges are tra
 
 ## Manuscript(Precedent) file
 
-caseset.xlsx is the theft data
+final_thef_data.xlsx is the theft data
 
-final rob data.xlsx is the robbery data
+final_rob_data.xlsx is the robbery data
 
 If you are going to use these data, please cite our work! 
 
