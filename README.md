@@ -1,5 +1,9 @@
 # README
 
+This is a README file for the codes and data for replicating the paper "Judges are trained as good explainers but maligned sentencers: a text similarity approach". DOI link: https://doi.org/10.1093/lpr/mgag007. 
+
+## Manuscript(Precedent) file
+
 caseset.xlsx is the theft data
 
 final rob data.xlsx is the robbery data
@@ -34,7 +38,7 @@ CUPL Data Law Lab
 
 Zian Ren, Aokai Wang are two students from CUPL, and they provide us rich legal knowledge building this data set. 
 
-# Appendix B file: 
+## Appendix B file: 
 
 the reviewers ask us to add more materials, so we upload related adding materials in appendix B file. 
 
