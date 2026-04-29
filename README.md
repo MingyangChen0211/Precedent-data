@@ -16,9 +16,9 @@ Should you have any questions about the work and this project, please contact Mi
 
 ### Techonical issues (collecting CJO data, cutting documents and etc. ), please contact any of them: 
 
-Zhipeng Wu: 2401421139@cupl.edu.cn
+Gaojie Song: 2401421139@cupl.edu.cn
 
-Gaojie Song: 202530131014T@stu.cqu.edu.cn
+Zhipeng Wu: 202530131014T@stu.cqu.edu.cn
 
 Zhanxue Xu: 22421167@zju.edu.cn
 
@@ -26,7 +26,7 @@ Zhanxue Xu: 22421167@zju.edu.cn
 
 Mingyang Chen: mc55649@um.edu.mo
 
-Gaojie Song: 202530131014T@stu.cqu.edu.cn
+Gaojie Song: 2401421139@cupl.edu.cn
 
 Boyang Xu: xuboyangcupl@126.com
 
