@@ -54,4 +54,6 @@ Mingyang Chen: mc55649@um.edu.mo
 
 # NOTE
 
-For technical issues, we will later provide a R package for users to replicate not only this paper, but all other sentencing research using CJO data. Onece the package is available, we will give the link here. 
+For technical issues, we will later provide a R package for users to replicate not only this paper, but all other sentencing research using CJO data. Onece it is released, we will give the link here. 
+
+2026.08.13 update: https://mingyangchen0211.github.io/ChineselegalText.github.io/
